@@ -1,0 +1,125 @@
+body{
+  background-color:lightblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gap {
+  gap: 3rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  background: rgb(80, 173, 204);
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 50px;
+
+}
+.small-container {
+  max-width: 400px;
+  text-align: center;
+}
+.main-navigation {
+  margin-top: 2rem;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+.main-navigation a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:aliceblue
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+  max-width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid cornsilk;
+  border-radius: 4px;
+}
+
+button {
+  background-color: chartreuse;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deeppink;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+
+table, th, td {
+  border: none;
+}
+
+
+th {
+  background-color:navy;
+  padding: 12px;
+  text-align: left;
+}
+
+
+td {
+  padding: 10px;
+}
+
+
+tr {
+  background-color:cornflowerblue ;
+}
+
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: deeppink;
+}
+
+.error {
+   border: 5px solid red;
+}
+  
